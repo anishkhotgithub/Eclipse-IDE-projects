@@ -1,0 +1,63 @@
+
+Aug 26, 2020 20:42:42.86 NEW SESSION
+Aug 26, 2020 20:42:42.86 [33464:35404:0826/204242.739:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Aug 26, 2020 21:36:07.40 [33464:16824:0826/213606.469:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Aug 26, 2020 22:12:07.32 [33464:16824:0826/221207.328:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+Aug 30, 2020 22:20:01.46 NEW SESSION
+Aug 30, 2020 22:20:01.46 [24660:45188:0830/222001.157:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Aug 30, 2020 22:20:01.53 [24660:45188:0830/222001.158:ERROR:cache_util.cc(139)] Unable to move cache folder C:\Users\user\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\user\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Aug 30, 2020 22:20:01.55 [24660:45188:0830/222001.158:ERROR:disk_cache.cc(184)] Unable to create cache
+Aug 30, 2020 22:20:01.57 [24660:45188:0830/222001.158:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+Aug 30, 2020 22:20:56.64 [35264:36060:0830/222056.639:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 03, 2020 15:34:40.38 NEW SESSION
+Sep 03, 2020 15:34:40.38 [11252:18332:0903/153440.344:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 04, 2020 11:19:17.96 NEW SESSION
+Sep 04, 2020 11:19:17.96 [13528:10716:0904/111917.582:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 04, 2020 12:42:37.68 [13528:13776:0904/124237.574:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 04, 2020 15:42:46.54 [13528:13776:0904/154246.546:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 04, 2020 15:42:49.90 [13528:7716:0904/154249.902:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 04, 2020 15:43:19.21 [13528:9732:0904/154319.211:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 04, 2020 16:51:20.10 [13528:13776:0904/165119.568:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 04, 2020 16:51:26.53 [13528:13776:0904/165126.536:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 04, 2020 18:46:10.38 [13528:13776:0904/184610.162:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 04, 2020 19:25:28.73 [13528:13776:0904/192528.736:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Sep 04, 2020 19:25:31.42 [13528:18148:0904/192531.428:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+Sep 05, 2020 10:48:39.07 NEW SESSION
+Sep 05, 2020 10:48:39.07 [18996:19576:0905/104838.841:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 05, 2020 11:20:10.54 [18996:8428:0905/112010.548:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:11.59 [18996:8428:0905/112011.597:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:12.60 [18996:8428:0905/112012.601:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:13.70 [18996:8428:0905/112013.702:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:15.98 [18996:8428:0905/112015.985:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:17.03 [18996:8428:0905/112017.033:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:18.96 [18996:8428:0905/112018.964:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:20.00 [18996:8428:0905/112020.002:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:22.00 [18996:8428:0905/112022.003:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:24.00 [18996:8428:0905/112024.003:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:20:25.08 [18996:8428:0905/112025.078:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 11:21:14.34 [18996:8428:0905/112114.346:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 2.239 s for first_image_paint 2.232 s
+Sep 05, 2020 13:06:28.99 [18996:19500:0905/130628.729:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 14:45:35.55 [18996:19500:0905/144532.543:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 05, 2020 14:45:35.60 [18996:16856:0905/144532.601:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+Sep 08, 2020 20:00:38.12 NEW SESSION
+Sep 08, 2020 20:00:38.12 [23252:39160:0908/200037.852:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 08, 2020 20:51:21.43 [40592:35120:0908/205121.321:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 09, 2020 20:37:36.70 NEW SESSION
+Sep 09, 2020 20:37:36.70 [32:10164:0909/203736.285:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 12, 2020 18:29:12.56 NEW SESSION
+Sep 12, 2020 18:29:12.56 [10300:10284:0912/182912.537:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+Sep 17, 2020 16:31:50.93 NEW SESSION
+Sep 17, 2020 16:31:50.93 [18100:24220:0917/163150.873:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 17, 2020 17:42:13.47 [18100:18160:0917/174213.177:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+Oct 12, 2020 17:57:03.83 NEW SESSION
+Oct 12, 2020 17:57:03.83 [10976:10200:1012/175703.603:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Oct 12, 2020 19:58:06.62 [10976:10740:1012/195806.620:ERROR:socket_stream.cc(219)] Closing stream with result -2

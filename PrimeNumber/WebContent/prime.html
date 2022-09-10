@@ -1,0 +1,114 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Find Prime Numbers within a range</title>
+
+<style>
+body {
+  font-family: Verdana;
+  margin: 20px;
+}
+
+#OutputBox {
+  border: 10px solid #eee;
+  height: 300px;
+  max-width: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-size: 0.8em;
+    margin:10px;
+    color:#009900;
+    box-shadow:5px 5px 5px #ccc;
+}
+
+
+#state {
+    background:#fa4b2a;
+    color:#fff;
+}
+</style>
+
+<script>
+var currentState;
+var webWorker;
+var computeButton;
+
+window.onload = function() {
+  currentState = document.getElementById("state");
+  computeButton = document.getElementById("computeButton");
+};
+
+function computePrime() {
+  computeButton.disabled = true;
+
+  var fromNumber = document.getElementById("from").value;
+  var toNumber = document.getElementById("to").value;
+
+  webWorker = new Worker("workersPrime.js");
+  webWorker.onmessage = getMessage;
+  webWorker.onerror = errorHandler;
+  
+  webWorker.postMessage(
+   { from: fromNumber,
+     to: toNumber
+   }
+  );
+
+  currentState.innerHTML = "Webworker are finding prime numbers within the range ("+
+   fromNumber + " to " + toNumber + ") ...";  
+}
+
+function getMessage(event) {
+  var message = event.data;
+
+  if (message.messageType == "PrimeList") {
+    var primes = message.data;
+
+    var primeList = "";
+    for (var i=0; i<primes.length; i++) {
+      primeList += primes[i];
+      if (i != primes.length-1) primeList += ", ";
+    }
+    var displayList = document.getElementById("OutputBox");
+    displayList.innerHTML = primeList;
+
+    if (primeList.length == 0) {
+      currentState.innerHTML = "Search failed to find any results.";
+    }
+    else {
+      currentState.innerHTML = "The results are here!";
+    }
+    computeButton.disabled = false;
+  }
+  else if (message.messageType == "Progress") {
+    currentState.innerHTML = message.data + "% done ...";
+  }
+}
+
+function errorHandler(error) {
+  currentState.innerHTML = error.message;
+}
+
+function TerminateCompute() {
+  webWorker.terminate();
+  webWorker = null;
+  currentState.innerHTML = "";
+  computeButton.disabled = false;
+}
+</script>
+</head>
+
+<body>
+  <p>Find all prime numbers within the range
+    <input id="from" value="1"> to <input id="to" value="6000">.</p>
+  <button id="computeButton" onclick="computePrime()">Find Prime Nos</button>
+  <button onclick="TerminateCompute()">Terminate Computation</button>
+
+  <div id="OutputBox">
+  </div>
+
+  <div id="state"></div>
+</body>
+</html>

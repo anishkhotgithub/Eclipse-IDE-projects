@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function () 
+	{
+		$("button").click(function () {
+			$("#toload").load("Home.jsp");
+		});
+		
+	})
+</script>
+</head>
+<body>
+	<center>
+		<h1>Welcome to MyAPP</h1>
+		<div>
+			<div id="toload"></div>
+			<a href="Home.jsp"><button>Home</button></a>
+			<a href="login.jsp">Login</a>
+			<a href="register.jsp">Register</a>
+			<a href="aboutus.jsp">About Us</a>
+			<a href="contactus.jsp">Contact Us</a>
+		</div>
+	</center>
+</body>
+</html>

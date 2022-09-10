@@ -1,0 +1,28 @@
+package servlet;
+
+import java.sql.DriverManager;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mysql.jdbc.Connection;
+
+public class LoginServlet extends HttpServlet throws ServletException, IOException 
+{
+	protected void doPost(HttpServletRequest req,HttpServletResponse res)
+	{
+		String username=req.getParameter("username");
+		String password=req.getParameter("password");
+		try
+		{
+			Class.forName("");
+			Connection con=DriverManager.getConnection("");
+			
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+}

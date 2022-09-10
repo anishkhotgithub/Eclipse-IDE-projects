@@ -1,0 +1,37 @@
+2020-07-28 15:26:28,482 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-04 11:38:10,997 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-04 11:53:20,170 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1103373ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-08-04 11:53:22,105 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.27.v20200227; built: 2020-03-02T14:40:42.212Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_251-b08
+2020-08-04 11:53:22,354 [main] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-08-04 11:53:22,362 [main] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-08-04 11:53:22,366 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2020-08-04 11:53:22,775 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@128bd0f0{/wse,null,AVAILABLE}
+2020-08-04 11:53:23,328 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@45a808f3{HTTP/1.1, (http/1.1)}{0.0.0.0:62999}
+2020-08-04 11:53:23,328 [main] INFO  org.eclipse.jetty.server.Server - Started @1106567ms
+2020-08-04 11:53:23,328 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms
+2020-08-04 13:26:38,523 [Framework stop] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@45a808f3{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+2020-08-04 13:26:38,523 [Framework stop] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2020-08-04 13:26:39,093 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@128bd0f0{/wse,null,UNAVAILABLE}
+2020-08-04 14:57:18,900 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-04 22:28:34,231 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-01-01 12:30:59,262 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-01-01 12:31:54,054 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anish.khot:Hibernate:0.0.1-SNAPSHOT @ C:\Users\user\eclipse-workspace\Hibernate\pom.xml.
+2021-01-01 12:31:54,142 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tejas:spring1:0.0.1-SNAPSHOT @ F:\JSFHS\Spring\spring1\pom.xml.
+2021-01-01 12:31:58,461 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate: com.anish.khot:Hibernate:0.0.1-SNAPSHOT with classifier  to /Hibernate/target/classes
+2021-01-01 12:32:07,068 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tejas:spring1:0.0.1-SNAPSHOT @ F:\JSFHS\Spring\spring1\pom.xml.
+2021-01-01 12:32:07,107 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-01 12:32:07,309 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-01-01 12:32:07,532 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-01 12:32:07,611 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\eclipse-workspace\Hibernate\src\test\resources
+2021-01-01 12:32:08,712 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate: com.anish.khot:Hibernate:0.0.1-SNAPSHOT with classifier  to /Hibernate/target/classes
+2021-01-01 12:32:13,626 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.anish.khot:Hibernate:0.0.1-SNAPSHOT @ C:\Users\user\eclipse-workspace\Hibernate\pom.xml.
+2021-01-01 12:32:18,948 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate: com.anish.khot:Hibernate:0.0.1-SNAPSHOT with classifier  to /Hibernate/target/classes
+2021-01-01 12:32:32,425 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-01 12:32:32,480 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-01-01 12:32:32,483 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-01-01 12:32:32,493 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\user\eclipse-workspace\Hibernate\src\test\resources
+2021-01-01 12:32:33,732 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Hibernate: com.anish.khot:Hibernate:0.0.1-SNAPSHOT with classifier  to /Hibernate/target/classes
+2021-01-01 12:32:35,731 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-01 12:32:35,732 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JSFHS\Spring\spring1\src\main\resources
+2021-01-01 12:32:35,736 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-01-01 12:32:35,737 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\JSFHS\Spring\spring1\src\test\resources

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/TypingTest.js"></script>
+
+        <style>
+
+            
+                            body {
+                                margin: 0px;
+                            }
+            
+                            #container {
+                            width:80%; margin: 0px auto; background: #eae0e0;
+                            }
+            
+            
+                            #clock {
+            
+                     float:right;
+                     background-color: #808080;
+                     width:100%; 
+                     color: #0c0224;
+                     font-size: 20px; 
+                     font-family: Arial;
+                            }
+            
+                            #time {
+            
+                             padding-right:10px; 
+                            float: right;
+                            }
+                    #header
+                    {
+                       border-bottom: 1px solid #808080;
+            
+                    }
+                    #titletext {
+                    padding:50px 0; margin: 0px auto; font-size: 50px; text-align: center; font-family: Arial; color: #030b39;
+                    }
+            .lead {
+                        font-size: 20px; margin-left:20px;font-family: Arial;
+                    }
+            
+            .lead1 {
+                        font-size: 25px; margin-left:20px;font-family: Arial;
+                    }
+            
+            
+            .lead2 {
+                        font-size: 20px; margin-left:20px;font-family: Arial; color: #f00;
+                    }
+                        #list {
+                      font-size: 16px;
+                      font-family: Verdana;
+                  }
+            
+            
+                  #Testcontent {
+                      width: 60%;
+               
+                             margin: 0 auto;
+            
+                  } 
+            
+            .btn {
+                padding: 7px;
+                font-size: 16px;
+                color: #0c0224;
+            }
+            .btn:hover {
+                background-color: #f1d8d8;
+            }
+                   #footer
+                    {
+                       background: #808080; text-align: center; font-family: Arial; 
+                    }
+            
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="clock"><br>
+                <p id="time"><output id="result"></output></p><br>
+            </div>
+
+            <div id="header">
+                <div id="titletext">
+          Typing test
+                </div>
+            </div>
+
+            <div id="Testcontent">
+                <p class="lead1"> Instructions : </p>
+
+                <ul id="list">
+                    <li>
+    You will get 30 seconds time to type the sample text.
+                    </li>
+                    <li>
+   Your typed text should match to the sample text.
+                    </li>
+                </ul>
+
+
+
+                <label for="sampleText" class="lead1">Sample text: </label>
+
+                <p id="sampleText" class="lead2">Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked.</p>
+
+
+                <textarea class="lead" rows="3" cols="80" id="copyTextInputBox" name="copyTextInputBox" placeholder="type here"></textarea>
+
+                <input type="hidden" name="originalText" id="originalText" value="Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked.">
+
+            </div>
+
+            <div id="footer">
+
+                <br><br>
+                <button class="btn" id="start" onclick="startWorker()">Start Test</button>
+                <button class="btn" onclick="stopWorker()">Submit Test</button>
+                <br><br>
+            </div>
+
+        </div>
+
+</div>
+    </body>
+</html>
